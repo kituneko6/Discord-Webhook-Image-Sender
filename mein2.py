@@ -7,7 +7,8 @@ import pyperclip
 import os
 
 
-# ---- 設定 ----
+# --------------------- 設定 ----------------------
+# ↓ コードから実行する場合には必要
 #BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 WEBHOOK_URL_FILE = os.path.join("webhook_url.txt")
 MAX_SIZE = 2048
